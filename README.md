@@ -50,3 +50,11 @@ Join our community of developers creating universal apps.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
 
 Screenshots of the app:
+## Loading Screen
+<br>
+<img width="367" height="847" alt="image" src="https://github.com/user-attachments/assets/ac6970fc-409e-4888-889f-e60efcd090f9" />
+<br>
+## Calculate Screen
+<img width="386" height="861" alt="image" src="https://github.com/user-attachments/assets/305cdac5-e1d6-4b1f-9425-32eb28b15e9f" />
+
+
