@@ -9,7 +9,6 @@ import {
   Dimensions,
 } from 'react-native';
 import React, { useState } from 'react';
-import { router } from 'expo-router';
 
 const { width } = Dimensions.get('window');
 
@@ -21,10 +20,6 @@ export default function Input() {
   const [downPaymentPercent, setDownPaymentPercent] = useState<number | null>(null);
   const [termMonths, setTermMonths] = useState<number | null>(48);
   const [interestRate, setInterestRate] = useState('');
-
-  const handleCalculate = () => {
-    // TODO: navigate to result screen with params
-  };
 
   return (
     <View style={styles.container}>
@@ -125,7 +120,6 @@ export default function Input() {
         {/* Calculate Button */}
         <TouchableOpacity
           style={styles.calculateButton}
-          onPress={handleCalculate}
           activeOpacity={0.85}
         >
           <Text style={styles.calculateButtonText}>คำนวณค่างวด</Text>
